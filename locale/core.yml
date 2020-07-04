@@ -204,7 +204,7 @@ core:
     # These translations are used in the Change Password modal dialog.
     change_password:
       send_button: Gửi email đặt lại mật khẩu
-      text: Click the button below and check your email for a link to change your password.
+      text: Nhấp vào nút bên dưới và kiểm tra email của bạn để biết liên kết để thay đổi mật khẩu của bạn.
       title: => core.ref.change_password
 
     # These translations are used by the composer controls.
@@ -225,7 +225,7 @@ core:
 
     # These translations are used by the composer when editing a post.
     composer_edit:
-      discard_confirmation: "You have not saved your changes. Do you wish to discard them?"
+      discard_confirmation: "Bạn đã không lưu các thay đổi của bạn. Bạn có muốn loại bỏ chúng?"
       post_link: "Post #{number} in {discussion}"
       submit_button: => core.ref.save_changes
 
@@ -284,7 +284,7 @@ core:
     # These translations are used in the header and session dropdown menu.
     header:
       admin_button: Administration
-      back_to_index_tooltip: Back to Discussion List
+      back_to_index_tooltip: Quay lại danh sách thảo luận
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
       profile_button: Hồ sơ
@@ -308,7 +308,7 @@ core:
       newest_button: Mới nhất
       oldest_button: Cũ nhất
       relevance_button: Mức độ liên quan
-      top_button: Top
+      top_button: Hàng đầu
 
     # These translations are used in the Log In modal dialog.
     log_in:
