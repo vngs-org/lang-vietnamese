@@ -239,12 +239,12 @@ core:
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      cannot_reply_button: Can't Reply
+      cannot_reply_button: Không thể trả lời
       cannot_reply_text: You don't have permission to reply to this discussion.
       delete_button: => core.ref.delete
       delete_confirmation: "Are you sure you want to delete this discussion?"
       delete_forever_button: => core.ref.delete_forever
-      log_in_to_reply_button: Log In to Reply
+      log_in_to_reply_button: Đăng nhập để trả lời
       rename_button: => core.ref.rename
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
@@ -277,9 +277,9 @@ core:
       email_placeholder: => core.ref.email
       email_sent_message: We've sent you an email containing a link to reset your password. Check your spam folder if you don't receive it within the next minute or two.
       not_found_message: There is no user registered with that email address.
-      submit_button: Recover Password
+      submit_button: Khôi phục mật khẩu
       text: Enter your email address and we will send you a link to reset your password.
-      title: Forgot Password
+      title: Quên mật khẩu
 
     # These translations are used in the header and session dropdown menu.
     header:
@@ -304,52 +304,52 @@ core:
 
     # These translations are used by the sorting control above the discussion list.
     index_sort:
-      latest_button: Latest
-      newest_button: Newest
-      oldest_button: Oldest
+      latest_button: Gần đây nhất
+      newest_button: Mới nhất
+      oldest_button: Cũ nhất
       relevance_button: Relevance
       top_button: Top
 
     # These translations are used in the Log In modal dialog.
     log_in:
-      forgot_password_link: "Forgot password?"
-      invalid_login_message: Your login details were incorrect.
+      forgot_password_link: "Quên mật khẩu?"
+      invalid_login_message: Thông tin đăng nhập của bạn không chính xác.
       password_placeholder: => core.ref.password
-      remember_me_label: Remember Me
-      sign_up_text: "Don't have an account? <a>Sign Up</a>"
+      remember_me_label: Ghi nhớ
+      sign_up_text: "Không có tài khoản? <a>Đăng ký</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
-      username_or_email_placeholder: Username or Email
+      username_or_email_placeholder: Tên người dùng hoặc email
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      discussion_renamed_text: "{username} changed the title"
-      empty_text: No Notifications
+      discussion_renamed_text: "{username} đã thay đổi tiêu đề"
+      empty_text: Không có thông báo
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
-      mark_as_read_tooltip: Mark as Read
+      mark_as_read_tooltip: Đánh dấu là đã đọc
       title: => core.ref.notifications
       tooltip: => core.ref.notifications
 
     # These translations are used by tooltips displayed for individual posts.
     post:
-      edited_text: Edited
-      edited_tooltip: "{username} edited {ago}"
-      number_tooltip: "Post #{number}"
+      edited_text: Đã chỉnh sửa
+      edited_tooltip: "{username} đã chỉnh sửa {ago}"
+      number_tooltip: "Bài viết #{number}"
 
     # These translations are used by the post control buttons.
     post_controls:
       delete_button: => core.ref.delete
-      delete_confirmation: "Are you sure you want to delete this post forever? This action cannot be undone."
+      delete_confirmation: "Bạn có chắc chắn muốn xóa bài viết này mãi mãi? Hành động này không thể được hoàn tác."
       delete_forever_button: => core.ref.delete_forever
       edit_button: => core.ref.edit
-      hide_confirmation: "Are you sure you want to delete this post?"
+      hide_confirmation: "Bạn có chắc chắn muốn xóa bài viết này?"
       restore_button: => core.ref.restore
 
     # These translations are used in the scrubber to the right of the post stream.
     post_scrubber:
       now_link: Now
-      original_post_link: Original Post
-      unread_text: "{count} unread"
+      original_post_link: Bài gốc
+      unread_text: "{count} chưa đọc"
       viewing_text: "{index} of {count} post|{index} of {count} posts"
 
     # These translations are displayed between posts in the post stream.
@@ -373,7 +373,7 @@ core:
 
     # These translations are used in the Settings page.
     settings:
-      account_heading: Account
+      account_heading: Tài khoản
       change_email_button: => core.ref.change_email
       change_password_button: => core.ref.change_password
       notifications_heading: => core.ref.notifications
@@ -381,19 +381,19 @@ core:
       notify_by_web_heading: Web
       notify_discussion_renamed_label: Someone renames a discussion I started
       privacy_disclose_online_label: Allow others to see when I am online
-      privacy_heading: Privacy
+      privacy_heading: Riêng tư
       title: => core.ref.settings
 
     # These translations are used in the Sign Up modal dialog.
     sign_up:
       dismiss_button: => core.ref.okay
       email_placeholder: => core.ref.email
-      log_in_text: "Already have an account? <a>Log In</a>"
+      log_in_text: "Đã có tài khoản? <a>Đăng nhập</a>"
       password_placeholder: => core.ref.password
       submit_button: => core.ref.sign_up
       title: => core.ref.sign_up
       username_placeholder: => core.ref.username
-      welcome_text: "Welcome, {username}!"
+      welcome_text: "Chào mừng, {username}!"
 
     # These translations are used in the user profile page and profile popup.
     user:
@@ -487,35 +487,35 @@ core:
     # Translations in this namespace are displayed by the Log Out confirmation interface.
     log_out:
       log_out_button: => core.ref.log_out
-      log_out_confirmation: "Are you sure you want to log out of {forum}?"
+      log_out_confirmation: "Bạn có chắc chắn muốn đăng xuất khỏi {forum}?"
       title: => core.ref.log_out
 
     # Translations in this namespace are displayed by the Reset Password interface.
     reset_password:
-      confirm_password_label: Confirm New Password
-      new_password_label: New Password
+      confirm_password_label: Xác nhận mật khẩu mới
+      new_password_label: Mật khẩu mới
       submit_button: => core.ref.save_changes
       title: => core.ref.reset_your_password
 
   # Translations in this namespace are used in messages output by the API.
   api:
-    invalid_username_message: "The username may only contain letters, numbers, and dashes."
+    invalid_username_message: "Tên người dùng chỉ có thể chứa chữ cái, số và dấu gạch ngang."
 
   # Translations in this namespace are used in emails sent by the forum.
   email:
 
     # These translations are used in emails sent when users register new accounts.
     activate_account:
-      subject: Activate Your New Account
+      subject: Kích hoạt tài khoản mới của bạn
       body: |
-        Hey {username}!
+        Chào {username}!
 
-        Someone (hopefully you!) has signed up to {forum} with this email address.
+        Ai đó (hy vọng bạn!) Đã đăng ký với {forum} bằng địa chỉ email này.
 
-        If this was you, simply click the following link and your account will be activated:
+        Nếu đây là bạn, chỉ cần nhấp vào liên kết sau và tài khoản của bạn sẽ được kích hoạt:
         {url}
 
-        If you did not sign up, please ignore this email.
+        Nếu bạn không đăng ký, xin vui lòng bỏ qua email này.
 
     # These translations are used in emails sent when users change their email address.
     confirm_email:
