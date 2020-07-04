@@ -473,8 +473,8 @@ core:
       csrf_token_mismatch_return_link: Quay lại, để thử lại
       invalid_confirmation_token: Liên kết xác nhận này đã được sử dụng hoặc không hợp lệ.
       not_authenticated: Bạn không có quyền truy cập trang này. Thử lại sau khi đăng nhập.
-      not_found: The page you requested could not be found.
-      not_found_return_link: "Return to {forum}"
+      not_found: Trang bạn yêu cầu không thể được tìm thấy.
+      not_found_return_link: "Quay trở lại {forum}"
       permission_denied: Bạn không có quyền truy cập trang này.
       unknown: Đã xảy ra lỗi khi cố tải trang này.
 
@@ -519,29 +519,29 @@ core:
 
     # These translations are used in emails sent when users change their email address.
     confirm_email:
-      subject: Confirm Your New Email Address
+      subject: Xác nhận địa chỉ email mới của bạn
       body: |
-        Hey {username}!
+        Chào {username}!
 
-        Someone (hopefully you!) has changed their email address on {forum} to this one.
+        Ai đó (hy vọng bạn!) Đã thay đổi địa chỉ email của họ trên {forum} thành địa chỉ này.
 
-        If this was you, simply click the following link and your email will be confirmed:
+        Nếu đây là bạn, chỉ cần nhấp vào liên kết sau và email của bạn sẽ được xác nhận:
         {url}
 
-        If this was not you, please ignore this email.
+        Nếu đây không phải là bạn, xin vui lòng bỏ qua email này.
 
     # These translations are used in emails sent when users ask to reset their passwords.
     reset_password:
       subject: => core.ref.reset_your_password
       body: |
-        Hey {username}!
+        Chào {username}!
 
-        Someone (hopefully you!) has submitted a forgotten password request for your account on {forum}.
+        Ai đó (hy vọng bạn!) Đã gửi yêu cầu quên mật khẩu cho tài khoản của bạn trên {forum}.
 
-        If this was you, click the following link to reset your password:
+        Nếu đây là bạn, nhấp vào liên kết sau để đặt lại mật khẩu của bạn:
         {url}
 
-        If you do not wish to change your password, just ignore this email and nothing will happen.
+        Nếu bạn không muốn thay đổi mật khẩu của mình, chỉ cần bỏ qua email này và sẽ không có gì xảy ra.
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
@@ -561,7 +561,7 @@ core:
     custom_header_title: Edit Custom Header
     delete: Xóa bỏ
     delete_forever: Xóa mãi mãi
-    discussions: Discussions                     # Referenced by flarum-statistics.yml
+    discussions: Bài viết                     # Referenced by flarum-statistics.yml
     edit: Chỉnh sửa
     email: Email
     icon: Icon
@@ -569,14 +569,14 @@ core:
     load_more: Tải thêm
     log_in: Đăng nhập
     log_out: Đăng xuất
-    mark_all_as_read: Mark All as Read
+    mark_all_as_read: Đánh dấu tất cả như đã đọc
     next_page: Trang tiếp theo
     notifications: Thông báo
     okay: OK                                     # Referenced by flarum-tags.yml
     password: Mật khẩu
-    posts: Bài viết                                 # Referenced by flarum-statistics.yml
+    posts: Bài đăng                                 # Referenced by flarum-statistics.yml
     previous_page: Trang trước
-    remove: Remove
+    remove: Xóa
     rename: Đổi tên
     reply: Trả lời                                 # Referenced by flarum-mentions.yml
     reset_your_password: Đặt lại mật khẩu của bạn
@@ -584,7 +584,7 @@ core:
     save_changes: Lưu thay đổi                   # Referenced by flarum-suspend.yml, flarum-tags.yml
     settings: Cài đặt
     sign_up: Đăng ký
-    some_others: "{count} other|{count} others"  # Referenced by flarum-likes.yml, flarum-mentions.yml
+    some_others: "{count} người khác|{count} người khác"  # Referenced by flarum-likes.yml, flarum-mentions.yml
     start_a_discussion: Viết bài
     username: Tên người dùng
     users: Người dùng                                 # Referenced by flarum-statistics.yml
