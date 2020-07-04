@@ -550,46 +550,46 @@ core:
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
     all_discussions: All Discussions
-    change_email: Change Email
-    change_password: Change Password
+    change_email: Đổi email
+    change_password: Đổi mật khẩu
     color: Color                                 # Referenced by flarum-tags.yml
-    confirm_password: Confirm Password
+    confirm_password: Xác nhận mật khẩu
     confirmation_email_sent: "We've sent a confirmation email to {email}. If it doesn't arrive soon, check your spam folder."
     custom_footer_text: Add HTML to be displayed at the very bottom of the page.
     custom_footer_title: Edit Custom Footer
     custom_header_text: "Add HTML to be displayed at the very top of the page, above Flarum's own header."
     custom_header_title: Edit Custom Header
     delete: Delete
-    delete_forever: Delete Forever
+    delete_forever: Xóa mãi mãi
     discussions: Discussions                     # Referenced by flarum-statistics.yml
     edit: Edit
     email: Email
     icon: Icon
     icon_text: "Enter the name of any <a>FontAwesome</a> icon class, <em>including</em> the <code>fas fa-</code> prefix."
     load_more: Load More
-    log_in: Log In
-    log_out: Log Out
+    log_in: Đăng nhập
+    log_out: Đăng xuất
     mark_all_as_read: Mark All as Read
     next_page: Next Page
-    notifications: Notifications
+    notifications: Thông báo
     okay: OK                                     # Referenced by flarum-tags.yml
-    password: Password
+    password: Mật khẩu
     posts: Posts                                 # Referenced by flarum-statistics.yml
     previous_page: Previous Page
     remove: Remove
     rename: Rename
     reply: Reply                                 # Referenced by flarum-mentions.yml
-    reset_your_password: Reset Your Password
-    restore: Restore
-    save_changes: Save Changes                   # Referenced by flarum-suspend.yml, flarum-tags.yml
-    settings: Settings
-    sign_up: Sign Up
+    reset_your_password: Đặt lại mật khẩu của bạn
+    restore: Khôi phục
+    save_changes: Lưu thay đổi                   # Referenced by flarum-suspend.yml, flarum-tags.yml
+    settings: Cài đặt
+    sign_up: Đăng ký
     some_others: "{count} other|{count} others"  # Referenced by flarum-likes.yml, flarum-mentions.yml
     start_a_discussion: Start a Discussion
-    username: Username
-    users: Users                                 # Referenced by flarum-statistics.yml
+    username: Tên người dùng
+    users: Người dùng                                 # Referenced by flarum-statistics.yml
     write_a_reply: Write a Reply...
-    you: You                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
+    you: Bạn                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
 
   ##
   # GROUP NAMES - These keys are translated at the back end.
