@@ -15,8 +15,8 @@ flarum-subscriptions:
     # These translations are used by the discussion control buttons.
     discussion_controls:
       follow_button: => flarum-subscriptions.ref.follow
-      unfollow_button: Unfollow
-      unignore_button: Unignore
+      unfollow_button: Hủy theo dõi
+      unignore_button: Hủy phớt lờ
 
     # These translations are used on the page that displays all subscriptions.
     following:
@@ -53,6 +53,6 @@ flarum-subscriptions:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    follow: Follow
-    following: Following
-    ignoring: Ignoring
+    follow: Theo dõi
+    following: Đang theo dõi
+    ignoring: Đang phớt lờ
