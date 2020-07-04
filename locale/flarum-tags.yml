@@ -59,44 +59,44 @@ flarum-tags:
 
     # These translations are displayed on the page that lists all tags.
     all_tags:
-      meta_description_text: Tất cả từ khóa
+      meta_description_text: Tất cả chuyên mục
       meta_title_text: => flarum-tags.ref.tags
 
     # These translations are used by the Choose Tags modal dialog.
     choose_tags:
-      choose_primary_placeholder: "Chọn từ khóa chính|Chọn {count} từ khóa chính"
-      choose_secondary_placeholder: "Chọn thêm 1 từ khóa|Chọn thêm {count} từ khóa"
+      choose_primary_placeholder: "Chọn chuyên mục chính|Chọn {count} từ chuyên mục"
+      choose_secondary_placeholder: "Chọn thêm 1 chuyên mục|Chọn thêm {count} chuyên mục"
       edit_title: "Chỉnh sửa từ khóa cho {title}"
       submit_button: => core.ref.okay
-      title: Chọn từ khóa cho bài viết của bạn
+      title: Chọn chuyên mục cho bài viết của bạn
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
-      choose_tags_link: Chọn từ khóa
+      choose_tags_link: Chọn chuyên mục
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      edit_tags_button: Chỉnh sửa từ khóa
+      edit_tags_button: Chỉnh sửa chuyên mục
 
     header:
-      back_to_tags_tooltip: Quay lại danh sách từ khóa
+      back_to_tags_tooltip: Quay lại danh sách chuyên mục
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
       more_link: Xem thêm...
       tags_link: => flarum-tags.ref.tags
-      untagged_link: Bỏ từ khóa
+      untagged_link: Bỏ chuyên mục
 
     # These translations are displayed between posts in the post stream.
     post_stream:
       added_and_removed_tags_text: "{username} đã thêm {tagsAdded} và xóa {tagsRemoved}."
       added_tags_text: "{username} đã thêm {tagsAdded}."
       removed_tags_text: "{username} đã xóa {tagsRemoved}."
-      tags_text: "{tags} từ khóa|{tags} từ khóa"
+      tags_text: "{tags} chuyên mục|{tags} chuyên mục"
 
     # These translations are used when visiting a single tag's discussion list.
     tag:
-      meta_description_text: "Tất cả bài viết với từ khóa {tag}"
+      meta_description_text: "Tất cả bài viết với chuyên mục {tag}"
 
   # Translations in this namespace are used by the forum and admin interfaces.
   lib:
@@ -110,6 +110,6 @@ flarum-tags:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    create_tag: Tạo từ khóa
+    create_tag: Tạo chuyên mục
     name: Tên
-    tags: Các từ khóa
+    tags: Các chuyên mục
