@@ -549,7 +549,7 @@ core:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    all_discussions: All Discussions
+    all_discussions: Tất cả bài viết
     change_email: Đổi email
     change_password: Đổi mật khẩu
     color: Color                                 # Referenced by flarum-tags.yml
