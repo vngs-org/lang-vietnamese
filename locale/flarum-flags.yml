@@ -31,7 +31,7 @@ flarum-flags:
       reason_missing_message: Vui lòng cung cấp một số thông tin cho người điều hành của chúng tôi.
       reason_off_topic_label: "Lạc đề"
       reason_off_topic_text: Bài đăng này không liên quan đến cuộc thảo luận hiện tại và nên được chuyển đi nơi khác.
-      reason_other_label: Khác (Xin hãy chỉ ra cụ thể)
+      reason_other_label: Khác (xin hãy chỉ ra cụ thể)
       reason_spam_label: Spam
       reason_spam_text: Bài này là một quảng cáo.
       submit_button: => flarum-flags.ref.flag_post
