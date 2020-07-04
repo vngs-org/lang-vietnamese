@@ -32,20 +32,20 @@ flarum-subscriptions:
 
     # These translations are used in the Settings page.
     settings:
-      follow_after_reply_label: Automatically follow discussions that I reply to
-      notify_new_post_label: Someone posts in a discussion I'm following
+      follow_after_reply_label: Tự động theo dõi các bài viết mà tôi trả lời
+      notify_new_post_label: Ai đó đăng bài trong một cuộc thảo luận tôi đang theo dõi
 
     # These translations are used in the subscription menu displayed to the right of the post stream.
     sub_controls:
       follow_button: => flarum-subscriptions.ref.follow
       following_button: => flarum-subscriptions.ref.following
-      following_text: Be notified of all replies.
+      following_text: Được thông báo về tất cả các trả lời.
       ignoring_button: => flarum-subscriptions.ref.ignoring
-      ignoring_text: Never be notified. Hide from the discussion list.
-      not_following_button: Not Following
-      not_following_text: "Be notified only when @mentioned."
-      notify_alert_tooltip: Get a forum notification when there are new posts
-      notify_email_tooltip: Get an email when there are new posts
+      ignoring_text: Không bao giờ được thông báo. Ẩn khỏi danh sách thảo luận.
+      not_following_button: Không theo dõi
+      not_following_text: "Chỉ được thông báo khi @mentioned."
+      notify_alert_tooltip: Nhận thông báo diễn đàn khi có bài viết mới
+      notify_email_tooltip: Nhận email khi có bài viết mới
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
