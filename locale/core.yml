@@ -421,8 +421,8 @@ core:
     # These translations are used in the alert that is shown when a new user has not confirmed their email address.
     user_email_confirmation:
       alert_message: => core.ref.confirmation_email_sent
-      resend_button: Resend Confirmation Email
-      sent_message: Sent
+      resend_button: Gửi lại email xác nhận
+      sent_message: Đã gửi
 
   # Translations in this namespace are used by the forum and admin interfaces.
   lib:
@@ -433,9 +433,9 @@ core:
 
     # These translations are displayed as error messages.
     error:
-      generic_message: "Oops! Something went wrong. Please reload the page and try again."
+      generic_message: "Rất tiếc, đã xảy ra lỗi. Vui lòng tải lại trang và thử lại."
       not_found_message: The requested resource was not found.
-      permission_denied_message: You do not have permission to do that.
+      permission_denied_message: Bạn không có quyền để làm điều đó.
       rate_limit_exceeded_message: You're going a little too quickly. Please try again in a few seconds.
 
     # These translations are used as suffixes when abbreviating numbers.
@@ -458,9 +458,9 @@ core:
 
     # Translations in this namespace are displayed by the basic HTML content loader.
     content:
-      javascript_disabled_message: This site is best viewed in a modern browser with JavaScript enabled.
-      load_error_message: Something went wrong while trying to load the full version of this site. Try hard-refreshing this page to fix the error.
-      loading_text: Loading...
+      javascript_disabled_message: Trang web này được xem tốt nhất trong một trình duyệt hiện đại có bật JavaScript.
+      load_error_message: Đã xảy ra lỗi khi tải phiên bản đầy đủ của trang web này. Hãy thử làm mới trang này để sửa lỗi.
+      loading_text: Đang tải...
 
     # Translations in this namespace are displayed in the basic HTML discussion view.
     discussion:
@@ -471,12 +471,12 @@ core:
     error:
       csrf_token_mismatch: You have been inactive for too long.
       csrf_token_mismatch_return_link: Go back, to try again
-      invalid_confirmation_token: This confirmation link has already been used or is invalid.
-      not_authenticated: You do not have permission to access this page. Try again after logging in.
+      invalid_confirmation_token: Liên kết xác nhận này đã được sử dụng hoặc không hợp lệ.
+      not_authenticated: Bạn không có quyền truy cập trang này. Thử lại sau khi đăng nhập.
       not_found: The page you requested could not be found.
       not_found_return_link: "Return to {forum}"
-      permission_denied: You do not have permission to access this page.
-      unknown: An error occurred while trying to load this page.
+      permission_denied: Bạn không có quyền truy cập trang này.
+      unknown: Đã xảy ra lỗi khi cố tải trang này.
 
     # Translations in this namespace are displayed by the basic HTML discussion index.
     index:
@@ -554,31 +554,31 @@ core:
     change_password: Đổi mật khẩu
     color: Color                                 # Referenced by flarum-tags.yml
     confirm_password: Xác nhận mật khẩu
-    confirmation_email_sent: "We've sent a confirmation email to {email}. If it doesn't arrive soon, check your spam folder."
+    confirmation_email_sent: "Chúng tôi đã gửi email xác nhận tới {email}. Nếu nó không đến sớm, hãy kiểm tra thư mục thư rác của bạn."
     custom_footer_text: Add HTML to be displayed at the very bottom of the page.
     custom_footer_title: Edit Custom Footer
     custom_header_text: "Add HTML to be displayed at the very top of the page, above Flarum's own header."
     custom_header_title: Edit Custom Header
-    delete: Delete
+    delete: Xóa bỏ
     delete_forever: Xóa mãi mãi
     discussions: Discussions                     # Referenced by flarum-statistics.yml
-    edit: Edit
+    edit: Chỉnh sửa
     email: Email
     icon: Icon
     icon_text: "Enter the name of any <a>FontAwesome</a> icon class, <em>including</em> the <code>fas fa-</code> prefix."
-    load_more: Load More
+    load_more: Tải thêm
     log_in: Đăng nhập
     log_out: Đăng xuất
     mark_all_as_read: Mark All as Read
-    next_page: Next Page
+    next_page: Trang tiếp theo
     notifications: Thông báo
     okay: OK                                     # Referenced by flarum-tags.yml
     password: Mật khẩu
-    posts: Posts                                 # Referenced by flarum-statistics.yml
-    previous_page: Previous Page
+    posts: Bài viết                                 # Referenced by flarum-statistics.yml
+    previous_page: Trang trước
     remove: Remove
-    rename: Rename
-    reply: Reply                                 # Referenced by flarum-mentions.yml
+    rename: Đổi tên
+    reply: Trả lời                                 # Referenced by flarum-mentions.yml
     reset_your_password: Đặt lại mật khẩu của bạn
     restore: Khôi phục
     save_changes: Lưu thay đổi                   # Referenced by flarum-suspend.yml, flarum-tags.yml
@@ -588,7 +588,7 @@ core:
     start_a_discussion: Start a Discussion
     username: Tên người dùng
     users: Người dùng                                 # Referenced by flarum-statistics.yml
-    write_a_reply: Write a Reply...
+    write_a_reply: Viết phản hồi...
     you: Bạn                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
 
   ##
