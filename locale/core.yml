@@ -226,7 +226,7 @@ core:
     # These translations are used by the composer when editing a post.
     composer_edit:
       discard_confirmation: "Bạn đã không lưu các thay đổi của bạn. Bạn có muốn loại bỏ chúng?"
-      post_link: "Post #{number} in {discussion}"
+      post_link: "Bài viết #{number} trong {discussion}"
       submit_button: => core.ref.save_changes
 
     # These translations are used by the composer when replying to a discussion.
@@ -235,7 +235,7 @@ core:
       discard_confirmation: "Bạn chưa đăng trả lời của bạn. Bạn có muốn loại bỏ nó?"
       posted_message: Câu trả lời của bạn đã được đăng.
       submit_button: Đăng trả lời
-      view_button: View
+      view_button: Xem
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
@@ -401,7 +401,7 @@ core:
       avatar_upload_button: Tải lên
       avatar_upload_tooltip: Tải lên một hình đại diện mới
       discussions_link: => core.ref.discussions
-      in_discussion_text: "In {discussion}"
+      in_discussion_text: "Trong {discussion}"
       joined_date_text: "Đã tham gia {ago}"
       online_text: Online
       posts_empty_text: Có vẻ như không có bài viết nào ở đây.
