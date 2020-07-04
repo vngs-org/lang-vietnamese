@@ -1,5 +1,5 @@
 {
-    "name": "flarum/lang-vietnamese",
+    "name": "vngs-org/lang-vietnamese",
     "type": "flarum-extension",
     "description": "Vietnamese language pack.",
     "keywords": ["locale"],
