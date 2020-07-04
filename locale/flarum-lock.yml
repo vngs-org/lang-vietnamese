@@ -16,16 +16,16 @@ flarum-lock:
 
     # These translations are displayed as tooltips for discussion badges.
     badge:
-      locked_tooltip: Locked
+      locked_tooltip: Đã khóa
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      lock_button: Lock
-      unlock_button: Unlock
+      lock_button: Khóa
+      unlock_button: Mở khóa
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      discussion_locked_text: "{username} locked"
+      discussion_locked_text: "{username} bị khóa"
 
     # These translations are displayed between posts in the post stream.
     post_stream:
