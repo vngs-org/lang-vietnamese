@@ -398,13 +398,13 @@ core:
     # These translations are used in the user profile page and profile popup.
     user:
       avatar_remove_button: => core.ref.remove
-      avatar_upload_button: Upload
-      avatar_upload_tooltip: Upload a new avatar
+      avatar_upload_button: Tải lên
+      avatar_upload_tooltip: Tải lên một hình đại diện mới
       discussions_link: => core.ref.discussions
       in_discussion_text: "In {discussion}"
-      joined_date_text: "Joined {ago}"
+      joined_date_text: "Đã tham gia {ago}"
       online_text: Online
-      posts_empty_text: It looks like there are no posts here.
+      posts_empty_text: Có vẻ như không có bài viết nào ở đây.
       posts_link: => core.ref.posts
       posts_load_more_button: => core.ref.load_more
       settings_link: => core.ref.settings
@@ -446,8 +446,8 @@ core:
     # These translations are used to punctuate a series of items.
     series:
       glue_text: ", "
-      three_text: "{first}, {second}, and {third}"
-      two_text: "{first} and {second}"
+      three_text: "{first}, {second}, và {third}"
+      two_text: "{first} và {second}"
 
     # These translations are used to modify usernames.
     username:
