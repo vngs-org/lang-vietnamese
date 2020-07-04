@@ -253,7 +253,7 @@ core:
     discussion_list:
       empty_text: Dường như không có bài viết nào ở đây.
       load_more_button: => core.ref.load_more
-      mark_as_read_tooltip: Mark as Read
+      mark_as_read_tooltip: Đánh dấu là đã đọc
       replied_text: "{username} đã trả lời {ago}"
       started_text: "{username} đã bắt đầu {ago}"
 
@@ -288,7 +288,7 @@ core:
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
       profile_button: Hồ sơ
-      search_placeholder: Tìm kiếm chuyên mục
+      search_placeholder: Tìm kiếm bài viết
       settings_button: => core.ref.settings
       sign_up_link: => core.ref.sign_up
 
@@ -347,10 +347,10 @@ core:
 
     # These translations are used in the scrubber to the right of the post stream.
     post_scrubber:
-      now_link: Now
+      now_link: Bây giờ
       original_post_link: Bài gốc
       unread_text: "{count} chưa đọc"
-      viewing_text: "{index} of {count} post|{index} of {count} posts"
+      viewing_text: "{index} của {count} bài viết|{index} của {count} bài viết"
 
     # These translations are displayed between posts in the post stream.
     post_stream:
