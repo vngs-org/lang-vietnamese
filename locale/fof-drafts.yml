@@ -12,30 +12,30 @@ fof-drafts:
     scheduled_drafts_disabled: Scheduled drafts are currently disabled in settings.
   forum:
     composer:
-      title: Save Draft
-      saving: Saving...
-      saved: Saved!
-      exit_alert: Discard changes to draft?
-      discard_empty_draft_alert: Discard empty draft?
+      title: Lưu bản nháp
+      saving: Đang lưu...
+      saved: Đã lưu!
+      exit_alert: Hủy thay đổi bản nháp?
+      discard_empty_draft_alert: Hủy bản nháp trống?
     dropdown:
-      empty_text: You haven't saved any drafts
-      title: Drafts
-      delete_button: Delete Draft
-      schedule_button: Schedule Draft
+      empty_text: Bạn chưa lưu bất kỳ bản nháp nào
+      title: Bản nháp
+      delete_button: Xóa bản nháp
+      schedule_button: Lên lịch bài viết
       tooltip: => fof-drafts.forum.dropdown.title
-      alert: Are you sure you want to delete your draft?
+      alert: Bạn có chắc chắn muốn xóa bản nháp của bạn?
     schedule_draft_modal:
-      title: Schedule Draft
-      text: Schedule your draft to automatically post at a later time!
-      scheduled_text: Scheduled to post on {datetime}.
-      scheduled_error: "Unable to post because: {error}."
-      unschedule_button: Unschedule
-      reschedule_button: Reschedule
-      schedule_button: Schedule
+      title: Lịch trình đăng bài
+      text: Lên lịch bài viết của bạn để tự động đăng sau đó!
+      scheduled_text: Dự kiến đăng vào {datetime}.
+      scheduled_error: "Không thể đăng vì: {error}."
+      unschedule_button: Ngừng lên lịch
+      reschedule_button: Lên lịch lại
+      schedule_button: Lên lịch
     user:
       settings:
-        drafts_heading: Drafts
-        draft_autosave_enable: Enable Draft Autosave?
-        draft_autosave_interval_label: Autosave Interval (seconds)
-        draft_autosave_interval_button: Update Interval
-        draft_autosave_interval_invalid: The interval must be an integer greater than 4.
+        drafts_heading: Bản nháp
+        draft_autosave_enable: Kích hoạt tự động lưu bản nháp?
+        draft_autosave_interval_label: Khoảng thời gian tự động lưu (giây)
+        draft_autosave_interval_button: Khoảng thời gian cập nhật
+        draft_autosave_interval_invalid: Khoảng thời gian phải là một số nguyên lớn hơn 4.
