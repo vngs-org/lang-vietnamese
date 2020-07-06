@@ -380,7 +380,7 @@ core:
       notify_by_email_heading: => core.ref.email
       notify_by_web_heading: Web
       notify_discussion_renamed_label: Ai đó đổi tên một bài viết tôi đã đăng
-      privacy_disclose_online_label: Allow others to see when I am online
+      privacy_disclose_online_label: Cho phép người khác nhìn thấy khi tôi trực tuyến
       privacy_heading: Riêng tư
       title: => core.ref.settings
 
