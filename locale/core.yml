@@ -218,21 +218,21 @@ core:
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
       body_placeholder: Viết một bài...
-      discard_confirmation: "Bạn chưa đăng bài viết của bạn. Bạn có muốn loại bỏ nó?"
+      discard_confirmation: "Bạn chưa đăng bài viết của bạn. Bạn có muốn hủy nó?"
       submit_button: Đăng bài viết
       title: => core.ref.start_a_discussion
       title_placeholder: Tiêu đề bài viết
 
     # These translations are used by the composer when editing a post.
     composer_edit:
-      discard_confirmation: "Bạn đã không lưu các thay đổi của bạn. Bạn có muốn loại bỏ chúng?"
+      discard_confirmation: "Bạn đã không lưu các thay đổi của bạn. Bạn có muốn hủy chúng?"
       post_link: "Bài viết #{number} trong {discussion}"
       submit_button: => core.ref.save_changes
 
     # These translations are used by the composer when replying to a discussion.
     composer_reply:
       body_placeholder: => core.ref.write_a_reply
-      discard_confirmation: "Bạn chưa đăng trả lời của bạn. Bạn có muốn loại bỏ nó?"
+      discard_confirmation: "Bạn chưa đăng trả lời của bạn. Bạn có muốn hủy nó?"
       posted_message: Câu trả lời của bạn đã được đăng.
       submit_button: Đăng trả lời
       view_button: Xem
